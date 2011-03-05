@@ -11166,46 +11166,6 @@ range=360;
 		}
 	}
 
-[Nix_CANNON]
-{
-	name=Gala Particle Cannon;
-	rendertype=0;
-	turret=1;
-	lineofsight=1;
-	range=1900;
-	reloadtime=12;
-	weaponvelocity=2333;
-	areaofeffect=166.6;
-	edgeeffectiveness=0.25;
-	accuracy=100;
-	noselfdamage=1;
-	energypershot=6666;
-	Tolerance=1666;
-	soundstart=Orcfire;
-	soundhitvolume=8;
-	soundhit=xplomed2;
-	soundhitvolume=8;
-	beamweapon=1; 
-	beamtime=9.5;
-	duration=0.65;
-	thickness=20;
-	corethickness=0.666;
-	RGBcolor=0 0 1;
-	RGBcolor2=0.255 0 0.750;
-	impulsefactor=1;
-	impulseboost=0.123;
-	cratermult=0.123;
-	craterboost=0.123;
-	avoidFriendly=1;
-	avoidfeature=0;
-	cegtag=bluelight;
-	explosiongenerator=custom:particleboom;
-	[DAMAGE]
-	{
-		DEFAULT=35000;
-		COMMANDERS=2500;
-	}
-}
 
 
 

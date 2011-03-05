@@ -27,7 +27,7 @@
 	MetalStorage=50;
 	ExplodeAs=NUCLEAR_MISSILE;
 	SelfDestructAs=NUCLEAR_MISSILE;
-	Category=CORE LEVEL3 WEAPON NOTAIR NOTSUB;
+	Category=CORE LEVEL3 WEAPON NOTAIR NOTSUB CTRL_G CTRL_W;
 	TEDClass=KBOT;
 	Copyright=Copyright 1997 Humongous Entertainment. All rights reserved.;
 	UnitNumber=100015;
@@ -54,7 +54,7 @@
 	canattack=1;
 	ImmuneToParalyzer=1;
 	Weapon1=TAWF_BANISHER2;
-	Weapon2=RavagerBeam;
+	Weapon2=Nix_cannon;
 	onlytargetcategory3=notair;
 	wpri_BadTargetCategory=VTOL;
 	wsec_BadTargetCategory=VTOL;
