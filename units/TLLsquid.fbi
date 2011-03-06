@@ -22,20 +22,18 @@
 	SoundCategory=ARM_JAMSUB;
 	ExplodeAs=SMALL_UNITEX;
 	SelfDestructAs=SMALL_UNIT;
-	Category=TLL UNDERWATER LEVEL2 NOWEAPON NOTAIR NOTSTRUCTURE CTRL_R;
+	Category=TLL MOBILE WEAPON NOTSHIP NOTAIR;
 	TEDClass=WATER;
 	Copyright=Copyright 1997 Humongous Entertainment. All rights reserved.;
 	Corpse=tllsquid_dead;
 	UnitNumber=912;
-
 	GermanDescription=Sonar-Stör-U-Boot;
 	Frenchdescription=Sous-Marin Brouilleur;
 	SpanishDescription=Sonar de interferencias subacuáticas;
 	ItalianDescription=Disturbo sonar subacqueo;
-  	radarDistance=0;
-	radarDistanceJam=475;
+	RadarDistanceJam=450;
 	mobilestandorders=1;
-	StandingMoveOrder=0;
+	StandingMoveOrder=1;
 	canmove=1;
 	canpatrol=1;
 	canstop=1;

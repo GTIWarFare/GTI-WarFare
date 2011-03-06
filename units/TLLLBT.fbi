@@ -20,6 +20,7 @@
 	Builder=0;
 	ThreeD=1;
 	ZBuffer=1;
+	highTrajectory=2;
 	NoAutoFire=0;
 	SightDistance=350;
 	SoundCategory=GUARD;
@@ -31,12 +32,10 @@
 	YardMap=ooooooooo;
 	Corpse=tlllbt_dead;
 	UnitNumber=807;
-
 	GermanDescription=Stationäre Plasmawerfer-Batterie;
 	Frenchdescription=Batterie à plasma stationnaire;
 	SpanishDescription=Cañón de plasma pesado;
 	ItalianDescription=Batteria al plasma;
-
 	firestandorders=1;
 	StandingFireOrder=2;
 	canstop=1;
@@ -45,7 +44,11 @@
         buildangle=8192;
 	canattack=1;
 	canguard=1;
-	Weapon1=ARMFIXED_GUN;
+	weapon1=ARMFIXED_GUN;
+ 	maxAngleDif1=230;
+ 	onlyTargetCategory1=NOTAIR;
+ 	weaponMainDir1=0 1 0;
+	weapon2=ARMFIXED_GUN_HIGH;
 	wpri_badTargetCategory=CTRL_V;
 	BadTargetCategory=NOWEAPON;
 	NoChaseCategory=NOTSTRUCTURE;
