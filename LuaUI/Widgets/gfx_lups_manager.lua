@@ -266,14 +266,34 @@ local UnitEffects = {
     {class='Ribbon', options={width=1, size=8, piece="ribbon1"}},
     {class='Ribbon', options={width=1, size=8, piece="ribbon2"}},
  }, 
+ [UnitDefNames["abuilderlvl1"].id] = {
+    {class='AirJet',options={color={1,1,1}, width=8, length=12, piece="cthrust", onActive=true}},
+    {class='AirJet',options={color={1,1,1}, width=8, length=12, piece="lthrust", onActive=true}},
+    {class='AirJet',options={color={1,1,1}, width=8, length=12, piece="rthrust", onActive=true}},
+ },
+ [UnitDefNames["abuilderlvl2"].id] = {
+    {class='AirJet',options={color={1,1,1}, width=12, length=15, piece="cthrust", onActive=true}},
+    {class='AirJet',options={color={1,1,1}, width=8, length=12, piece="lthrust", onActive=true}},
+    {class='AirJet',options={color={1,1,1}, width=8, length=12, piece="rthrust", onActive=true}},
+ },
  [UnitDefNames["abuilderlvl3"].id] = {
     {class='AirJet',options={color={1,1,1}, width=12, length=15, piece="thrust", onActive=true}},
     {class='AirJet',options={color={1,1,1}, width=12, length=15, piece="thrust1", onActive=true}},
     {class='AirJet',options={color={1,1,1}, width=12, length=15, piece="thrust2", onActive=true}},
  },
-
+ [UnitDefNames["cbuilderlvl1"].id] = {
+    {class='AirJet',options={color={1,1,1}, width=12, length=15, piece="rthrust", onActive=true}},
+    {class='AirJet',options={color={1,1,1}, width=12, length=15, piece="lthrust", onActive=true}},
+ },
+ [UnitDefNames["cbuilderlvl2"].id] = {
+    {class='AirJet',options={color={1,1,1}, width=12, length=15, piece="rthrust", onActive=true}},
+    {class='AirJet',options={color={1,1,1}, width=12, length=15, piece="lthrust", onActive=true}},
+ },
+ [UnitDefNames["cbuilderlvl3"].id] = {
+    {class='AirJet',options={color={1,1,0}, width=10, length=15, piece="rthrust", onActive=true}},
+    {class='AirJet',options={color={1,1,0}, width=10, length=15, piece="lthrust", onActive=true}},
+ }, 
 }
-
 local t = os.date('*t')
 if (t.yday>350) then --(t.month==12)
   UnitEffects[UnitDefNames["armcom"].id] = {
