@@ -49,6 +49,11 @@ local unitDef = {
   version            = 1,
   yardMap            = [[oooo]],
   zbuffer            = 1,
+  sfxtypes = {
+    explosiongenerators = {
+      [[custom:webbluelight]],
+    },
+  },
   sounds = {
     canceldestruct     = [[cancel2]],
     cloak              = [[kloak1]],
