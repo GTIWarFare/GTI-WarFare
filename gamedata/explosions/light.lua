@@ -40,10 +40,10 @@ return {
       water              = true,
       properties = {
         heat               = 30,
-        heatfalloff        = 0.34,
+        heatfalloff        = 0.84,
         maxheat            = 30,
         pos                = [[0, 0.0, 0]],
-        size               = [[17.0 r1]],
+        size               = 10,
         sizegrowth         = [[0.09 r.16]],
         sizemod            = 0,
         sizemodmod         = 0,
