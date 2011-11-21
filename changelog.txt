@@ -1,4 +1,10 @@
-    
+Gti-WarFare ChangeLog
+2011-11-21
+Changed old Changelog
+Plan out new unit layout
+
+
+Old Changelog/ TA ChanageLog
 TLL
 
 -Tllemstore Reduced explosion of unit
